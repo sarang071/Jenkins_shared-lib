@@ -8,10 +8,10 @@ def call(body) {
         environment {
             registryURI         = 'registry.hub.docker.com/'
 
-            dev_registry        = 'teamcloudethix/cloudethix-sample-nginx-dev'
-            qa_registry         = 'teamcloudethix/cloudethix-sample-nginx-qa'
-            stage_registry      = 'teamcloudethix/cloudethix-sample-nginx-stage'
-            prod_registry       = 'teamcloudethix/cloudethix-sample-nginx-prod'
+            dev_registry        = 'sarangp007/sarang_cloudethix_nginx'
+            qa_registry         = 'sarangp007/sarang_cloudethix_nginx'
+            stage_registry      = 'sarangp007/sarang_cloudethix_nginx'
+            prod_registry       = 'sarangp007/sarang_cloudethix_nginx'
 
             dev_dh_creds        = 'dh_cred_dev'
             qa_dh_creds         = 'dh_cred_qa'
